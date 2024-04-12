@@ -1,0 +1,93 @@
+
+.container{
+    width: 960px;
+    height: 600px;
+    border: solid 5px;
+    margin: auto;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(5, 5, 114);
+}
+
+body{
+    background-color: rgb(7, 7, 150);
+}
+
+.kurabiye{
+    margin-top: 20px;
+    margin-left: 120px;
+    position: relative;
+    transition: all 0.1s ease-in-out;
+    transform: none;
+}
+
+button[type = "save"]{
+    position: relative;
+    top: 70px;
+    right: 250px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: xx-large;
+    border: solid 5px black;
+    visibility: hidden;
+}
+
+button[type = "reset"]{
+    position: relative;
+    top: 20px;
+    left: 200px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    font-size: xx-large;
+    border: solid 5px black;
+    visibility: hidden;
+}
+
+.kurabiye:hover{
+    cursor: pointer;
+}
+
+.k_yazi{
+    text-align: center;
+    color: white;
+}
+
+.bonuslar{
+    position: relative;
+    border: solid 5px;
+    border-radius: 50px;
+    height: 570px;
+    width: 400px;
+    left: 500px;
+    bottom: 580px;
+    background-color: rgb(7, 7, 150);
+}
+
+.bonuslar img{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.bonuslar img:hover{
+    cursor: pointer;
+}
+
+.k-alani{
+    border: solid 5px;
+    height: 250px;
+    width: 400px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 50px;
+    position: relative;
+    background-color: rgb(7, 7, 150);
+}
+
+.fiyatlar{
+    margin-left: 20px;
+    position: relative;
+    color: white;
+}
